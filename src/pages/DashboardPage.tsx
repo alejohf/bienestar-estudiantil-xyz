@@ -18,13 +18,13 @@ import {
 export function DashboardPage() {
   // Mock data for charts
   const assessmentData = [
-    { grade: "6to", depresion: 5, ansiedad: 8, autoestima: 12 },
-    { grade: "7mo", depresion: 8, ansiedad: 10, autoestima: 9 },
-    { grade: "8vo", depresion: 6, ansiedad: 14, autoestima: 7 },
-    { grade: "9no", depresion: 12, ansiedad: 15, autoestima: 8 },
-    { grade: "10mo", depresion: 9, ansiedad: 11, autoestima: 10 },
-    { grade: "11mo", depresion: 7, ansiedad: 9, autoestima: 15 },
-    { grade: "12mo", depresion: 10, ansiedad: 12, autoestima: 11 },
+    { grade: "1ero", depresion: 5, ansiedad: 8, autoestima: 12 },
+    { grade: "2do", depresion: 8, ansiedad: 10, autoestima: 9 },
+    { grade: "3roA", depresion: 6, ansiedad: 14, autoestima: 7 },
+    { grade: "3roB", depresion: 12, ansiedad: 15, autoestima: 8 },
+    { grade: "4toA", depresion: 9, ansiedad: 11, autoestima: 10 },
+    { grade: "4toB", depresion: 7, ansiedad: 9, autoestima: 15 },
+    { grade: "5to", depresion: 10, ansiedad: 12, autoestima: 11 },
   ];
 
   const incidentTypeData = [
