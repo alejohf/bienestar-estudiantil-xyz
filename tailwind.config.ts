@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,54 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+                // Custom colors for our application
+                "blue": {
+                    "50": "#F0F7FC",
+                    "100": "#D8EAF7",
+                    "200": "#AED2ED",
+                    "300": "#83B9E3",
+                    "400": "#4F96C8",
+                    "500": "#3278AB",
+                    "600": "#266089",
+                    "700": "#1A4865",
+                    "800": "#0D2433",
+                    "900": "#061219"
+                },
+                "green": {
+                    "50": "#F1F9F5",
+                    "100": "#DBEEE4",
+                    "200": "#B3DACA",
+                    "300": "#8BC6AF",
+                    "400": "#5EAD7D",
+                    "500": "#458F61",
+                    "600": "#326847",
+                    "700": "#20452F",
+                    "800": "#102318",
+                    "900": "#08110C"
+                },
+                "peach": {
+                    "50": "#FEF8F2",
+                    "100": "#FDEEDE",
+                    "200": "#FBD9BD",
+                    "300": "#F9C096",
+                    "400": "#F6A066",
+                    "500": "#F38035",
+                    "600": "#C15C18",
+                    "700": "#914511",
+                    "800": "#602E0B",
+                    "900": "#301705"
+                },
+                "warning": {
+                    "light": "#FFECB5",
+                    "DEFAULT": "#FFD369",
+                    "dark": "#E6B800"
+                },
+                "danger": {
+                    "light": "#FFBABA",
+                    "DEFAULT": "#FF5A5A",
+                    "dark": "#D10000"
+                }
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
