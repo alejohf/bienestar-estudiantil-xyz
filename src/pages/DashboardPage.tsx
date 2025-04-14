@@ -19,7 +19,7 @@ export function DashboardPage() {
   // Mock data for charts
   const assessmentData = [
     { grade: "1ero", depresion: 5, ansiedad: 8, autoestima: 12 },
-    { grade: "2do", depresion: 8, ansiedad: 10, autoestima: 9 },
+    { grade: "2doA", depresion: 8, ansiedad: 10, autoestima: 9 },
     { grade: "3roA", depresion: 6, ansiedad: 14, autoestima: 7 },
     { grade: "3roB", depresion: 12, ansiedad: 15, autoestima: 8 },
     { grade: "4toA", depresion: 9, ansiedad: 11, autoestima: 10 },
